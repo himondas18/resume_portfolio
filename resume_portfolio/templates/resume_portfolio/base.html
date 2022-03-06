@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}  
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Himon Das</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Lonely - v4.7.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
+    <h1 >Hi, I'm Himon!</h1>
+    <h2 >I am a data engineer</h2>
+    <a href="#about" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
+  </section><!-- End Hero -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="{% url 'home' %}">Himon</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
+          <li><a class="nav-link scrollto" href="#services">Certifications</a></li>
+          <!--
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li><a href="https://www.flaticon.com/free-icons/download-pdf" title="download pdf icons">Download pdf icons created by Freepik - Flaticon</a>
+          -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>Specialist Programmer (Data engineer) at Infosys</h3>
+              <p>
+                IT specialist with 2.5+ years of professional experience in data analytics, data management and builiding ETL pipeline. Expert in python technologies
+and have a good understanding in data related software as well as codes.
+              </p>
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="0.5" class="purecounter"></span>
+                    <p><strong>Outstanding bands</strong> for 3 consecutive years in infosys.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="0.5" class="purecounter"></span>
+                    <p><strong>Projects</strong> i have worked on (excluding my own projects). </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-clock"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="0.5" class="purecounter"></span>
+                    <p><strong>Years of experience</strong> in investment domain and recently working in core data analytics team.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-award"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="0.5" class="purecounter"></span>
+                    <p><strong>Awards</strong> in hackathons included college days.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p></p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Markit Enterprise data management software <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Pyspark <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Django <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">SQL <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Informatica <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Amazon web service <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">NOSQL <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume section-bg">
+      <div class="container">
+
+        <div class="section-title row">
+              <div class="row">
+                  <div class="col-11"><h2>Resume  <a href="{% static 'Resume.pdf' %}"><button type="button" class="btn btn-success">Download</button></a></h2></div>
+                  
+              </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Himon Das</h4>
+              <p><em>Innovative and dedicated Data engineer with 2.5+ years of experience, developing data pipeline and automation softwares from initial concept to final, polished deliverable.</em></p>
+              <p>
+              <ul>
+                <li>Barasat, Kolkata - 700126</li>
+                <li>+91 9831915250</li>
+                <li>himondas18@gmail.com</li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology in Electronics and Communication Engineering.</h4>
+              <h5>2015 - 2019</h5>
+              <p><em>Heritage Institute of Technology, affiliated to Maulana Abul Kalam Azad University of Technology, Kolkata.</em></p>
+            </div>
+            
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Specialist programmer</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Infosys - Bhubaneswar, India</em></p>
+              <p>
+              <ul>
+                <li>I have been working for an insurance client from past 2 years in the investment sector, I have developed several python
+scripts for automation, ETL purposes as well as report creation.
+</li>
+                <li>I have also improved upon the existing python and sql scripts to optimize execution time.</li>
+                <li>I created informatica, SSIS as well as sql parser using python that parse the exported xml, dtsx and sql file and provide
+meaningful insights.</li>
+                <li>I have done analysis on investement data, modified the code and represent it to business as per the requirement.</li>
+                <li>In this project, I have also worked on multiple ETL technologies and scripts such as SAS, informatica, Markit Enterprise Data
+Management Software.</li>
+              
+              </ul>
+              </p>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>ACHIEVEMENTS / CERTIFICATIONS</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Top 600</a></h4>
+              <p class="description">In HackwithInfy is a pan India coding hackathon by Infosys</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Cloud certification</a></h4>
+              <p class="description">Infosys certified aws cloud practitioner</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">DBMS certification</a></h4>
+              <p class="description">Completed NPTEL DBMS course under Prof. Partha Pratim Das, Computer Science and Engineering, IIT KGP and got certified too.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Mongo DB Certification</a></h4>
+              <p class="description">Completed Mongo DB certification from Infosys</p>
+            </div>
+          </div>
+          <p></p>
+          <div class="col-md-6 col-lg-3 align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Python Certification</a></h4>
+              <p class="description">Completed Python course from Udemy by Jose Portilla, Data Scientist.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Apache spark 3 Certification</a></h4>
+              <p class="description">Completed Mongo DB certification from Infosys</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Coming soon</a></h4>
+              <p class="description">Learning in progress.<br></br></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Coming soon</a></h4>
+              <p class="description">Learning in progress.<br></br></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Are you ready to discuss your data engineering needs? Contact me via email or using the form below to find out how I can help your business.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>Social media</h3>
+              <p>Please connect me with my social media handles for any collaboration project, freelancing needs or to simply grab a coffee.</p>
+              <div class="social-links">
+                <a href="https://twitter.com/himondasHD" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/himon.choton/" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/himondas_hd/" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/himon-das-386a71133/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-geo-alt"></i>
+                <p>Barasat,<br>West Bengal, Kolkata 700126</p>
+              </div>
+
+              <div class="d-flex align-items-center mt-4">
+                <i class="bi bi-envelope"></i>
+                <p>himondas18@gmail.com</p>
+              </div>
+
+              <div class="d-flex align-items-center mt-4">
+                <i class="bi bi-phone"></i>
+                <p>+91 9831915250</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <form action="{%url 'thank' %}" method="POST" role="form" >
+            {% csrf_token %}
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <p/>
+              
+              <div class="text-center"><button type="submit"  class="btn btn-danger">Send Message</button></div>
+              
+            </form>
+            
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Himon</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-lonely/ -->
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static '/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
+{% block content %}
+{% endblock %}
